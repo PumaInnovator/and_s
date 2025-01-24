@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!-- saved from url=(0058)file:///C:/Users/HUAWEI/Downloads/modern-portfolio-cv.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --accent-color: #ffd700;
+            --text-color: #2d3748;
+            --background-color: #f7fafc;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), #2a4365);
+            color: white;
+            padding: 3rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,215,0,0.1));
+        }
+
+        .company-info {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .title {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent-color);
+        }
+
+        .contact {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+
+        .project-info {
+            padding: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .project-description {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .service-item {
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+            background: var(--background-color);
+            border-radius: 4px;
+        }
+
+        .service-icon {
+            color: var(--accent-color);
+            margin-right: 1rem;
+            font-size: 1.2rem;
+        }
+
+        @media print {
+            .section {
+                break-inside: avoid;
+                page-break-inside: avoid;
+            }
+            
+            .project-grid {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+        }
+
+        .expertise-section {
+            background: var(--primary-color);
+            color: white;
+            padding: 3rem 0;
+            margin: 3rem 0;
+        }
+
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .expertise-item {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            border-radius: 8px;
+        }
+
+        .expertise-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="company-info">
+            <h1 class="title">Ing. José Macario Campos Martínez</h1>
+            <div class="contact">
+                <p>📱 229-911-9991</p>
+                <p>✉️ jeindustrial19@hotmail.com</p>
+                <p>Construcciones y Servicios de Mantenimiento</p>
+            </div>
+        </div>
+         <!-- Logo de la compañía -->
+         <div class="logo" style="position: absolute; top: 20px; right: 20px;">
+            <a href="https://postimages.org/" target="_blank"><img src="./modern-portfolio-cv_files/logo-empresa-pepe-editado.jpg" border="0" alt="logo-empresa-pepe-editado">
+        </a></div><a href="https://postimages.org/" target="_blank">
+    </a></header><a href="https://postimages.org/" target="_blank">
+
+    <section class="expertise-section">
+        <div class="expertise-grid">
+            <div class="expertise-item">
+                <div class="expertise-number">15+</div>
+                <div>Años de Experiencia</div>
+            </div>
+            <div class="expertise-item">
+                <div class="expertise-number">100+</div>
+                <div>Proyectos Completados</div>
+            </div>
+            <div class="expertise-item">
+                <div class="expertise-number">50+</div>
+                <div>Clientes Satisfechos</div>
+            </div>
+            <div class="expertise-item">
+                <div class="expertise-number">4</div>
+                <div>Especialidades Técnicas</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="page-break">
+        <section class="mission-vision-section">
+            <h2 class="section-title">Misión</h2>
+            <div class="mission-box">
+                <p>Transformar el panorama de la construcción industrial mediante soluciones integrales que combinan precisión tecnológica, innovación estructural y eficiencia operativa, estableciendo nuevos estándares en cada proyecto que desarrollamos.</p>
+            </div>
+
+            <h2 class="section-title">Visión</h2>
+            <div class="vision-box">
+                <p>Consolidarnos como referentes en la transformación del sector construcción a través de la integración de tecnologías avanzadas y métodos constructivos sostenibles, expandiendo nuestra influencia en el desarrollo de infraestructura industrial especializada.</p>
+            </div>
+
+            <h2 class="section-title">Objetivos Estratégicos</h2>
+            <div class="objectives-box">
+                <ul>
+                    <li>Implementar sistemas constructivos de vanguardia que maximicen la eficiencia y durabilidad de cada proyecto.</li>
+                    <li>Desarrollar soluciones personalizadas que integren tecnología avanzada en topografía y control de obra.</li>
+                    <li>Establecer estándares superiores en instalaciones industriales especializadas.</li>
+                    <li>Liderar la innovación en sistemas automatizados para el sector avícola.</li>
+                </ul>
+            </div>
+
+            <h2 class="section-title">Valores</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>Innovación Técnica</h3>
+                    <p>Integración constante de tecnologías y métodos avanzados en el desarrollo de soluciones constructivas.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Precisión Ejecutiva</h3>
+                    <p>Minuciosidad y corrección en cada etapa del proceso constructivo.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Adaptabilidad Estratégica</h3>
+                    <p>Soluciones flexibles ante necesidades específicas del cliente.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Eficiencia Integral</h3>
+                    <p>Optimización de recursos y procesos en cada proyecto.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="section">
+        <h2 class="section-title">Levantamiento Topográfico</h2>
+        <div class="project-grid">
+            <!-- 1 Imágenes de Topografía -->
+            <div class="project-card">
+                <img src="./modern-portfolio-cv_files/img1-topograficos.jpg" alt="img1-topograficos">
+                <img src="./modern-portfolio-cv_files/img2-topograficos.jpg" alt="img2-topograficos">
+                <img src="./modern-portfolio-cv_files/img3-topograficos.jpg" alt="img3-topograficos">
+                <img src="./modern-portfolio-cv_files/img4-topograficos.jpg" alt="img4-topograficos">
+                <div class="project-info">
+                    <h3 class="project-title">Mediciones de Precisión</h3>
+                    <p class="project-description">Levantamientos con equipo de última generación.</p>
+                </div>
+            </div>
+            <!-- Repetir para 4 imágenes más -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Estructuras Metálicas</h2>
+        <div class="project-grid">
+            <!-- 2 Imágenes de Estructuras -->
+            <div class="project-card">
+                <img src="./modern-portfolio-cv_files/img1-estructuras-metalicas.jpg" alt="img1-estructuras-metalicas">
+                <img src="./modern-portfolio-cv_files/img2-estructuras-metalicas.jpg" alt="img2-estructuras-metalicas">
+                <img src="./modern-portfolio-cv_files/img3-estructuras-metalicas.jpg" alt="img3-estructuras-metalicas">
+                <img src="./modern-portfolio-cv_files/img4-estructuras-metalicas.jpg" alt="img4-estructuras-metalicas">
+                <div class="project-info">
+                    <h3 class="project-title">Naves Industriales</h3>
+                    <p class="project-description">Construcción de estructuras de alta resistencia.</p>
+                </div>
+            </div>
+            <!-- Repetir para 4 imágenes más -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Instalaciones Avícolas</h2>
+        <div class="project-grid">
+            <!-- 3 Imágenes de Instalaciones -->
+            <div class="project-card">
+                <img src="./modern-portfolio-cv_files/img1-granjas-avicolas.jpg" alt="img1-granjas-avicolas">
+                <img src="./modern-portfolio-cv_files/img9-granjas-avicolas.jpg" border="0" alt="img9-granjas-avicolas">
+                <img src="./modern-portfolio-cv_files/img3-granjas-avicolas.jpg" alt="img3-granjas-avicolas">
+                <img src="./modern-portfolio-cv_files/img7-granjas-avicolas.jpg" alt="img7-granjas-avicolas">
+                <div class="project-info">
+                    <h3 class="project-title">Sistemas Automatizados</h3>
+                    <p class="project-description">Equipamiento especializado para granjas.</p>
+                </div>
+            </div>
+            <!-- Repetir para 4 imágenes más -->
+        </div>
+    </section>
+    <section class="section">
+        <h2 class="section-title">Movimiento de Tierras y Terracerías</h2>
+        <div class="project-grid">
+            <!-- 4 cards más con imágenes de terracerías -->
+            <div class="project-card">
+                <img src="./modern-portfolio-cv_files/img1-movimiento-terracerias.jpg" alt="img1-movimiento-terracerias">
+                <img src="./modern-portfolio-cv_files/img2-movimiento-terracer-as.jpg" alt="img2-movimiento-terracer-as">
+                <img src="./modern-portfolio-cv_files/img3-movimiento-terracer-as.jpg" alt="img3-movimiento-terracer-as">
+                <img src="./modern-portfolio-cv_files/img4-movimiento-terracer-as.jpg" alt="img4-movimiento-terracer-as">
+                <div class="project-info">
+                    <h3 class="project-title">Preparación de Terrenos</h3>
+                    <p class="project-description">Nivelación y conformación de terrenos para proyectos industriales.</p>
+                </div>
+            </div>
+            <!-- Repetir para 4 imágenes más -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Colado y Pulido de Pisos</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                 <!-- 4 cards colados y pulidos -->
+                <img src="./modern-portfolio-cv_files/img1-colado.jpg" alt="img1-colado">
+                <img src="./modern-portfolio-cv_files/img5-colado.jpg" alt="img5-colado">
+                <img src="./modern-portfolio-cv_files/img3-colado.jpg" alt="img3-colado">
+                <img src="./modern-portfolio-cv_files/img4-colado.jpg" alt="img4-colado">
+                <div class="project-info">
+                    <h3 class="project-title">Pisos Industriales</h3>
+                    <p class="project-description">Colado de concreto con acabados especializados.</p>
+                </div>
+            </div>
+        <!-- Repetir para 4 imágenes más -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Obra Civil</h2>
+        <div class="project-grid">
+            <!-- 6 Imágenes de Obra Civil -->
+            <div class="project-card">
+                <img src="./modern-portfolio-cv_files/img1-obra-civil.jpg" alt="img1-obra-civil">
+                <img src="./modern-portfolio-cv_files/img2-obra-civil.jpg" alt="img2-obra-civil">
+                <img src="./modern-portfolio-cv_files/img3-obra-civil.jpg" alt="img3-obra-civil">
+                <img src="./modern-portfolio-cv_files/img4-obra-civil.jpg" alt="img4-obra-civil">
+                <div class="project-info">
+                    <h3 class="project-title">Construcción Industrial</h3>
+                    <p class="project-description">Proyectos con altos estándares de calidad.</p>
+                </div>
+            </div>
+            <!-- Repetir para 4 imágenes más -->
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">Servicios Especializados</h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <span class="service-icon">✓</span>
+                <span>Consultoría Técnica Especializada</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">✓</span>
+                <span>Mantenimiento Industrial</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">✓</span>
+                <span>Gestión de Proyectos</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">✓</span>
+                <span>Optimización de Instalaciones</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">✓</span>
+                <span>Desarrollo de Soluciones Personalizadas</span>
+            </div>
+            <div class="service-item">
+                <span class="service-icon">✓</span>
+                <span>Asesoría en Normatividad</span>
+            </div>
+        </div>
+    </section>
+
+
+</a></body></html>
